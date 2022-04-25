@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "120783160514",
+    "project_id": "languagedetecter",
+    "storage_bucket": "languagedetecter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120783160514:android:907c9077a4468ba41ea75b",
+        "android_client_info": {
+          "package_name": "com.waiyanminmin.languagedetecter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120783160514-d0f9tpu557jkmi5irld75oahvi2k2i3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw0Gi8xZU1U5KIrCnrAFQ8YXNAe54zTZM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120783160514-d0f9tpu557jkmi5irld75oahvi2k2i3a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "120783160514-hniejf81lqsipvlj9fvp2rnl99cnq9qj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.waiyanminmin.languagedetecter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

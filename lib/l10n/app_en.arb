@@ -1,0 +1,23 @@
+{
+    "language": "Language",
+    "@language":{
+      "description": "Language"
+    },
+    "typesmth": "Type something",
+    "@typesmth":{
+      "description": "typesmth"
+    },
+    "history": "History",
+    "@history":{
+      "description": "history"
+    },
+    "languages": "Languages :",
+    "@languages":{
+      "description": "languages"
+    },
+    "check": "Check",
+    "@check":{
+      "description": "check"
+    }
+    
+}
