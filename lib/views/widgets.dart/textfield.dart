@@ -34,7 +34,7 @@ class BuildTextField extends StatelessWidget {
         onSubmitted: (value) async {
           ///translate text and show result when pressed Enter on keyboard.
           languageSet = await translate(value);
-          showresult(context);
+          showresult(context, languageSet);
         },
         controller: controller,
         cursorHeight: 5,

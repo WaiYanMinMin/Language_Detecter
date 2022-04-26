@@ -6,7 +6,7 @@ import 'package:translator/translator.dart';
 Future<Set<String>> translate(String input) async {
   final translator = GoogleTranslator();
   var languageSet = <String>{};
-
+  log("input text receieved: " + input);
   for (var rune in input.runes) {
     var inputCharacter = String.fromCharCode(rune);
 
@@ -26,6 +26,3 @@ Future<Set<String>> translate(String input) async {
 
   return languageSet;
 }
-
-
-

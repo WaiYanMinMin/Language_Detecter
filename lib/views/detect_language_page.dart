@@ -73,7 +73,7 @@ class _DetectLanguagePageState extends State<DetectLanguagePage> {
                         ///Detect button
                         onTap: () async {
                           languageSet = await translate(input.text);
-                          showresult(context);
+                          showresult(context,languageSet);
 
                           ///on pressed, translate the text and show result
                         },

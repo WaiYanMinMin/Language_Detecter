@@ -1,12 +1,11 @@
-
 import 'package:flutter/material.dart';
-import 'package:language_detecter/views/detect_language_page.dart';
+
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
 ///customized widget to show the result
-void showresult(BuildContext context) {
+void showresult(BuildContext context, Set<dynamic> languageSet) {
   ScaffoldMessenger.of(context).showSnackBar(
     SnackBar(
-      
       ///if the detected language is not empty, show result.
       ///else, show error message
       content: (languageSet.isNotEmpty)
